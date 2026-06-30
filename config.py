@@ -23,8 +23,8 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # ======================================================
 OWNER_ID = int(getenv("OWNER_ID", 5857831018))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "lll_BADNAM_BABY_llll")
-BOT_USERNAME = getenv("BOT_USERNAME", "Shivisongbot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "vip_ankit_121")
+BOT_USERNAME = getenv("BOT_USERNAME", "KANHA_MIX_MUSIC_bot")
 BOT_NAME = getenv("BOT_NAME", "Sonali Music")
 ASSUSERNAME = getenv("ASSUSERNAME")
 
@@ -53,7 +53,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ======================================================
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/yjee4247-code/kirtipublic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rockStar378/kirtipublic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "YOUR_GIT_TOKEN")
 
