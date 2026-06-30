@@ -47,7 +47,7 @@ async def must_join_channel(app: Client, msg: Message):
     except ChatAdminRequired:
         print(f"๏ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ᴍᴜsᴛ_ᴊᴏɪɴ ᴄʜᴀᴛ ๏: {MUST_JOIN} !")
 
-======================================================
+#======================================================
 # ©️ 2025-26 All Rights Reserved by ytnaisha😎
 
 # 🧑‍💻 Developer : t.me/vip_ankit_121
