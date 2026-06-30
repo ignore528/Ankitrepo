@@ -41,7 +41,6 @@ YOUTUBE_IMG_URL = "https://files.catbox.moe/k7iykz.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/k7iykz.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/k7iykz.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/k7iykz.jpg"
-]
 
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 @app.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)
