@@ -10,7 +10,7 @@ import config
 from ShiviMusic import app
 
 
-def private_panel(_):
+def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
@@ -38,10 +38,29 @@ def private_panel(_):
     return buttons
 
 
-# ===========================================================
-# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 😎
-#
-# 🧑‍💻 Developer : t.me/TheSigmaCoder
-# 🔗 Source link : GitHub.com/Im-Notcoder/Shivi-V2
-# 📢 Telegram channel : t.me/Purvi_Bots
-# ===========================================================
+def private_panel(_):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"https://t.me/{app.username}?startgroup=true",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_9"],
+                callback_data="sbot_cb"
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_13"],
+                callback_data="abot_cb"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_4"],
+                callback_data="settings_back_helper"
+            ),
+        ],
+    ]
+    return buttons
