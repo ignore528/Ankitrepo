@@ -13,7 +13,6 @@ from pyrogram.types import InlineKeyboardButton
 import config
 from ShiviMusic import app
 
-    ]
     return buttons
 
 
