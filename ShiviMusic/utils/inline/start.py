@@ -1,9 +1,3 @@
-# ===========================================================
-# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 🚀
-#
-# This source code is under MIT License 📜
-# ===========================================================
-
 from pyrogram.types import InlineKeyboardButton
 
 import config
@@ -20,7 +14,11 @@ def start_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_4"],
+                text="👤 Owner",
+                url=f"https://t.me/{config.OWNER_USERNAME}",
+            ),
+            InlineKeyboardButton(
+                text="• BACK •",
                 callback_data="settings_back_helper"
             ),
         ],
@@ -38,7 +36,11 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_4"],
+                text="👤 Owner",
+                url=f"https://t.me/{config.OWNER_USERNAME}",
+            ),
+            InlineKeyboardButton(
+                text="• BACK •",
                 callback_data="settings_back_helper"
             ),
         ],
