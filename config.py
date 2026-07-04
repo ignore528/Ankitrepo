@@ -17,20 +17,20 @@ from pyrogram import filters
 load_dotenv()
 
 # ======================================================
-API_ID = int(getenv("API_ID", "24168862"))
-API_HASH = getenv("API_HASH", "916a9424dd1e58ab7955001ccc0172b3")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+API_ID = int(getenv("API_ID", "31528509"))
+API_HASH = getenv("API_HASH", "b910407715541615564728642aec8bf8")
+BOT_TOKEN = getenv("BOT_TOKEN", "8612940633:AAEx1i2ZNCEJKgWV7kZ_PVSFwzGXLfx96QE" )
 
 # ======================================================
-OWNER_ID = int(getenv("OWNER_ID", 5857831018))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "vip_ankit_121")
-BOT_USERNAME = getenv("BOT_USERNAME", "KANHA_MIX_MUSIC_bot")
+OWNER_ID = int(getenv("OWNER_ID", 6265094563))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "nftsarkar")
+BOT_USERNAME = getenv("BOT_USERNAME", "FalaqMusicsbot")
 BOT_NAME = getenv("BOT_NAME", "Sonali Music")
 ASSUSERNAME = getenv("ASSUSERNAME")
 
 # ======================================================
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1003670001038))
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://deidaraasui12_db_user:lFMu0uvvRI5Kv86r@stark.yrjtl3r.mongodb.net/?appName=Stark")
+LOGGER_ID = int(getenv("LOGGER_ID", -1002563579272))
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
@@ -58,15 +58,15 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "YOUR_GIT_TOKEN")
 
 # ======================================================
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shre_update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tynaisha")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/textables")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/cauxx ")
 
 # ======================================================
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b58200860623ef19")
 
 # ======================================================
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQHhFj0AlmUYB4gLqgkki-L72LilLcLBHOC9ds0inCR1QxkRya-f1JOq9LKuEfbOdCjs9TXa_3xWxs6LN_lt3IX7XcwhXho_cYMHDUCRPMO2dba6n0RXggBKNbGV_fSVC2oF3BL_brBD1sPhLWB47mTiIlXcDMJZJfvVIrVNUZ8MagHwg6V-pz85wFwPMApc15mNEFacSrW7ChN_GZK6hqpPTmkcOIejGwT6epgdP10dPk2kWDMPMBvYi8zYGOK3qJ3BykqRKnoW4xXWYz-KUiA1rH96fhZ-mWAo4nr-AZyGW-RU_sSa60GUfUQaXgkIpb_Dm_HzH_WXxd-Nog2LUXTFmW2WYAAAAAHw9pabAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
